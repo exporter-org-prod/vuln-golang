@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	//_ "github.com/dgrijalva/jwt-go"
+	_ "github.com/dgrijalva/jwt-go"
 	//_ "github.com/xanzy/go-gitlab"
 
 	//_ "github.com/gogo/protobuf/proto"
