@@ -2,7 +2,10 @@ module github.com/endorlabs/vulnerable-golang
 
 go 1.18
 
-require github.com/owncast/owncast v0.0.13-0.20221013022700-2f0106149f1f
+require (
+	github.com/dgrijalva/jwt-go v3.2.0+incompatible
+	github.com/owncast/owncast v0.0.13-0.20221013022700-2f0106149f1f
+)
 
 require (
 	github.com/lestrrat-go/file-rotatelogs v2.4.0+incompatible // indirect
